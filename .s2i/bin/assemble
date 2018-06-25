@@ -5,7 +5,7 @@ echo "Before assembling from RAB"
 rc=$?
 
 if [ $rc -eq 0 ]; then
-    echo "After successful assembling from RAB"
+    echo "After successful assembling from RAB triggred from Webhook"
 else
     echo "After failed assembling from RAB"
 fi
